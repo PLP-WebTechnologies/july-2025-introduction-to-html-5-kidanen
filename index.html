@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible & SEO-friendly HTML5 Page — Example Company</title>
+  <meta name="description" content="An example of a fully semantic, accessible, and SEO-optimized HTML5 page with clear structure and meaningful content." />
+  <link rel="canonical" href="https://www.example.com/" />
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Accessible & SEO-friendly HTML5 Page" />
+  <meta property="og:description" content="An example of a fully semantic, accessible, and SEO-optimized HTML5 page." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.example.com/" />
+  <meta property="og:image" content="https://www.example.com/images/og-image.jpg" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Example Company</h1>
+    <p>Building accessible and SEO-friendly web experiences</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <article aria-labelledby="article-title">
+      <header>
+        <h2 id="article-title">Creating an Accessible, SEO-friendly Web Page</h2>
+        <p>Published on <time datetime="2025-08-10">August 10, 2025</time> by <span itemprop="author">Kidane Negash</span></p>
+      </header>
+
+      <section aria-labelledby="intro-heading">
+        <h3 id="intro-heading">Introduction</h3>
+        <p>This article demonstrates how to structure an HTML5 page using only semantic elements, ensuring both accessibility and search engine clarity.</p>
+      </section>
+
+      <section aria-labelledby="structure-heading">
+        <h3 id="structure-heading">Proper Page Structure</h3>
+        <p>Using semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> improves accessibility and helps search engines better understand your content hierarchy.</p>
+        <ul>
+          <li>Use clear heading levels in order</li>
+          <li>Ensure navigation is identifiable</li>
+          <li>Mark up articles, sections, and asides meaningfully</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="accessibility-heading">
+        <h3 id="accessibility-heading">Accessibility Considerations</h3>
+        <p>HTML5 landmarks help assistive technologies navigate content efficiently. Provide descriptive link text, use <code>aria-label</code> where needed, and ensure all images have descriptive <code>alt</code> attributes.</p>
+      </section>
+
+      <section aria-labelledby="seo-heading">
+        <h3 id="seo-heading">SEO Best Practices</h3>
+        <p>Search engines value clear structure, relevant headings, and descriptive content. Keep your main topic in headings and ensure each section is relevant and unique.</p>
+      </section>
+
+      <footer>
+        <p>Tags: <a href="/tags/html5">HTML5</a>, <a href="/tags/accessibility">Accessibility</a>, <a href="/tags/seo">SEO</a></p>
+      </footer>
+    </article>
+
+    <aside aria-labelledby="related-heading">
+      <h2 id="related-heading">Related Articles</h2>
+      <ul>
+        <li><a href="/blog/semantic-html">Why Semantic HTML Matters</a></li>
+        <li><a href="/blog/seo-accessibility">Combining SEO with Accessibility</a></li>
+        <li><a href="/blog/landmark-elements">Landmark Elements Explained</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+    <section aria-labelledby="footer-about">
+      <h2 id="footer-about">About Example Company</h2>
+      <p>Example Company specializes in creating websites that are both human- and search-engine-friendly.</p>
+    </section>
+
+    <section aria-labelledby="footer-nav">
+      <h2 id="footer-nav">Quick Links</h2>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <p>&copy; <time datetime="2025">2025</time> Kidane Negash. All rights reserved.</p>
+  </footer>
+</body>
+</html>
